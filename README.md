@@ -1,4 +1,4 @@
-# AI Language Tutor
+# Gemini Live Tutor
 
 This project is split into two repositories:
 
