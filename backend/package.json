@@ -1,0 +1,21 @@
+{
+  "name": "ai-language-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:secure": "USE_HTTPS=true SSL_KEY_PATH=certs/dev-key.pem SSL_CERT_PATH=certs/dev-cert.pem node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.43.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  }
+}
